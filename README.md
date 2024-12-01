@@ -33,14 +33,22 @@ Try it now: [Online Drumpad](https://pan-danio.github.io/drumpad/)
 
 ## ⌨️ Keyboard Controls
 
-| Key | Sound     | Key | Sound     | Key | Sound      | Key | Sound    |
-|-----|-----------|-----|-----------|-----|------------|-----|----------|
-| 1   | Tamb      | 2   | Cowbell   | 3   | Crash     | 4   | Ride     |
-| Q   | Low Tom   | W   | Mid Tom   | E   | High Tom  | R   | Conga    |
-| A   | Kick Alt  | S   | Snare Alt | D   | Closed HH | F   | Open HH  |
-| Z   | Kick      | X   | Rim       | C   | Snare     | V   | Clap     |
+| Key         | Alternative Key | Sound     |
+|-------------|----------------|-----------|
+| 1           | V             | Crash     |
+| 2           | F             | Cowbell   |
+| 3           | R             | Ride      |
+| Q           |               | Low Tom   |
+| W           |               | Mid Tom   |
+| E           |               | High Tom  |
+| C           |               | Closed HH |
+| D           |               | Open HH   |
+| Z           |               | Kick      |
+| S           |               | Rim       |
+| X           |               | Snare     |
+| A           |               | Clap      |
 
-This 4x4 grid layout matches the visual arrangement of the drumpad interface.
+This 3x4 grid layout adjusts to a 4x3 layout when the screen is wider than it is tall.
 
 ## 📝 Note
 

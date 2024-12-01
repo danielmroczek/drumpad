@@ -80,11 +80,13 @@ class DrumPad {
   addKeyboardHooks() {
     const keyToPadMap = {};
     this.pads.forEach((pad) => {
-      const {
-        dataset: { key },
-      } = pad;
+      const { dataset: { key } } = pad;
       if (!key) return;
-      keyToPadMap[key.toLowerCase()] = pad;
+      
+      // Split keys and create mapping for each key
+      key.toLowerCase().split(',').forEach(k => {
+        keyToPadMap[k.trim()] = pad;
+      });
     });
 
     window.addEventListener("keydown", (e) => {
