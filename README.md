@@ -4,7 +4,7 @@ An interactive online drumpad that lets you play beats using your keyboard or to
 
 ## 🔗 Live Demo
 
-Try it now: [Online Drumpad](https://pan-danio.github.io/drumpad/)
+Try it now: [Online Drumpad](https://danielmroczek.github.io/drumpad/)
 
 ## 🎯 Features
 
